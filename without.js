@@ -20,23 +20,6 @@ const assertArraysEqual = function(arr1,arr2) {
     return;
   }
 };
-// The Challenge: Implement without which will return a subset of a given array, removing unwanted elements.
-
-// const without = function(source, itemsToRemove) {
-//   let newArr = [];
-//   for (let i = 0; i < Array.length; i++) {
-//     for (let r = 0; r < itemsToRemove.length; r++) {
-//       if (source[i] === itemsToRemove[r]) {
-//         break;
-//       }
-//       if (itemsToRemove.length - 1 === r) {
-//         newArr.push(source[i]);
-//       }
-//     }
-//   }
-//   return newArr;
-// };
-
 
 const without = function(source, itemsToRemove) {
   let removedItems = [];
