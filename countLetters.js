@@ -21,3 +21,6 @@ const countLetters = function(string) {
 };
 
 console.log(countLetters(string));
+
+const result = countLetters("Hello World");
+console.log(result);
