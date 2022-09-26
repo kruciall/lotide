@@ -11,14 +11,4 @@ const tail = function(array) {
   return (console.log(newArray));
 };
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words); // no need to capture the return value since we are not checking it
-assertEqual(words.length, 3); // original array should still have 3 elements!
-
-const word = ["One"];
-tail(word);
-assertEqual(word.length, 1);
-
-const empty = [];
-tail(empty);
-assertEqual(empty.length, 0);
+module.exports = tail;
